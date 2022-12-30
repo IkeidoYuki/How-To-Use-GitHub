@@ -6,9 +6,8 @@
 https://gitforwindows.org/
 
 インストール完了後、PowerShellを起動して以下コマンドを実行する。
-------------------------------
 git --version
-------------------------------
+
 想定結果
 git version 2.31.0.windows.1
 
