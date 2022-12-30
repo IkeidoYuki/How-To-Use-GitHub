@@ -1,7 +1,7 @@
 # GitHubを使う前にこのファイルを読むこと
 
 ## 0.事前準備
-# Gitのインストール
+### Gitのインストール
 以下URLより、Gitのインストールを行う
 https://gitforwindows.org/
 
