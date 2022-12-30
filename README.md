@@ -17,6 +17,14 @@ PowerShellを起動し、以下コマンドを実行する
 git config --global user.name ★任意のユーザー名★
 git config --global user.email ★メールアドレス★
 ```
+
+### GitHubのアカウント作成
+以下URLにアクセスし、アカウントを作成する  
+https://github.com/  
+
+
+
+
 ## 参考文献
 https://tech-blog.rakus.co.jp/entry/20200529/git  
 https://web-camp.io/magazine/archives/75359  
