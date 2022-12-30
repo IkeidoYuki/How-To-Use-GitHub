@@ -17,4 +17,7 @@ PowerShellを起動し、以下コマンドを実行する
 git config --global user.name ★任意のユーザー名★
 git config --global user.email ★メールアドレス★
 ```
-
+##参考文献
+https://tech-blog.rakus.co.jp/entry/20200529/git
+https://web-camp.io/magazine/archives/75359
+https://backlog.com/ja/git-tutorial/stepup/11/
