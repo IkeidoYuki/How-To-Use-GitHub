@@ -40,6 +40,46 @@ git clone <リモートリポジトリのURL>
 git branch -b master/ブランチ名
 ```
 
+ローカルのファイル編集後、以下コマンドでGitHubにMergeする。  
+最初に編集したローカルファイルを以下コマンドでaddする。  
+```
+git add <編集したファイル名>
+```
+ここで、全てのローカルファイルをaddする場合、以下コマンドとなる。
+```
+git add -A
+```
+
+次にファイルをcommitする。  
+```
+git commit -m "ファイル編集者につたえたい文言"
+
+git commit -m "[add] ファイル名や日付が一般的"
+```
+
+ここで変更履歴については、以下コマンドを実行することで確認ができる。  
+gitのステータス確認
+```
+git status
+```
+
+gitの差分確認
+```
+git diff
+```
+
+gitの変更履歴確認
+```
+git log
+```
+
+ローカルで作成したファイルをリモートにpushし、Merge Requestを作成する。
+```
+git remote add origin GitHubのURL
+git push origin master
+```
+
+
 
 
 ## 参考文献
